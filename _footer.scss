@@ -1,0 +1,118 @@
+footer{
+    background: #301e3a;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+
+    .f_box{
+        // border: $border;
+        height: 100%;
+    }
+    .f_box_1{
+        width: 15%;
+        padding-top: 40px;
+
+        img{
+            max-width: 82px;
+            width: 90%;
+        }
+    }
+    .f_box_2{
+        width: 60%;
+        padding-top: 70px;
+        display: flex;
+        justify-content: space-around;
+
+        a:hover{
+            color: #fed000;
+            text-decoration: underline;
+        }
+    }
+    .f_box_3{
+        width: 25%;
+        padding-top: 65px;
+
+        img{
+            width: 90%;
+            max-width: 198px;
+        }
+    }
+    p{
+        width: 100%;
+        color: #aa9ab3;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    footer{
+        .f_box_2{
+           a{
+               font-size: 16px;
+           }
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    footer{
+
+        .f_box_1{
+            padding-top: 13px;
+            padding-left: 15px;
+        }
+        .f_box_2{
+            padding-top: 45px;
+
+            a{
+                font-size: 12px;
+            }
+        }
+        .f_box_3{
+            padding-top: 45px;
+        }
+         p{
+                font-size: 11px;
+            }
+    }
+}  //end 768px
+
+@media screen and (max-width: 655px){
+    footer{
+        display: block;
+
+        .f_box_1{
+            display: none;
+        }
+        .f_box_2{
+            padding-top: 10px;
+            flex-wrap: wrap;
+            width: 100%;
+            margin: 0 auto;
+        }
+        .f_box_3{
+            padding-top: 7px;
+            margin: 0 auto;
+        }
+    }
+    
+}  //end 655px
+
+@media screen and (max-width: 344px){
+    footer{
+        .f_box_2{
+            display: block;
+            
+            a{
+                display: block;
+            }
+        }
+        .f_box_3{
+            width: 50%;
+        }
+        p{
+            font-size: 12px;
+        }
+    }
+    
+}

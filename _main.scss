@@ -1,0 +1,567 @@
+.sec1{
+    background-image: url(img/fon1.png);
+    background-size: 100% 100%;
+    height: 466px;
+    position: relative;
+
+    .text{
+        // border: $border;
+        width: 300px;
+        height: 150px;
+        background: url(img/fon2.png) no-repeat;
+        background-size: contain;
+        padding-top: 30px;
+        position: absolute;
+        top: 160px;
+        right: 135px;
+
+        p{
+            color: white;
+            font-size: 30px;
+        }
+    }
+}  // end sec1
+
+.sec2{
+    padding: 50px;
+
+    .p2_1{
+        width: 90%;
+        margin: 0 auto;
+        font-size: 24px;
+    }
+    h2{
+        margin-top: 50px;
+    }
+    .p2_2{
+        width: 90%;
+        margin: 20px auto;
+        color: #6b646f;
+    }
+    .img2{
+        width: 90%;
+        margin: 0 auto;
+
+        img{
+            width: 100%;
+        }
+    }
+}   //end sec2
+
+.sec3{
+    .p3{
+        margin-top: 20px;
+    }
+    .box3{
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px auto;
+        // border: $border;
+
+        .box3_1{
+            // border: $border;
+            width: 30%;
+
+            .circle{
+                width: 100px;
+                height: 100px;
+                background: #fed000;
+                border-radius: 50%;
+                line-height: 100px;
+                font-size: 60px;
+                color: white;
+                margin: 0 auto;
+            }
+            .p3_1{
+                width: 81%;
+                margin: 20px auto;
+                font-size: 20px;
+            }
+        }
+    }
+}  //end sec3
+
+.sec4{
+    margin-top: 30px;
+
+    .p4_1{
+        margin-top: 20px;
+    }
+    .p4_2{
+        font-size: 14px;
+        margin: 20px auto;
+        width: 60%;
+    }
+    a{
+        background: #fed000;
+        border-radius: 20px;
+        color: #372243;
+        font-size: 14px;
+    }
+}  //end sec4
+
+.sec5{
+    margin-top: 30px;
+
+    .p5_1{
+        width: 70%;
+        margin: 20px auto;
+    }
+    .img5{
+        width: 85%;
+        margin: 0 auto;
+
+        img{
+            width: 100%;
+            max-height: 437px;
+            max-width: 1152px;
+        }
+    }
+
+    .p5_2{
+        font-size: 24px;
+        text-transform: uppercase;
+        margin-top: 30px;
+    }
+    .box5{
+        // border: $border;
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px auto;
+
+        .box5_1{
+            width: 25%;
+
+            img{
+                width: 47%;
+                max-width: 143px;
+            }
+        }
+        .box5_2{
+            width: 40%;
+
+            img{
+                width: 100%;
+            }
+        }
+        p{
+            width: 80%;
+            margin: 10px auto;
+        }
+    }
+
+    .p5_3{
+        font-size: 20px;
+        width: 45%;
+        margin: 20px auto;
+    }
+}  //end sec5
+
+.sec6{
+    background: #fafafa;
+    padding: 50px 0;
+
+    span{
+        text-transform: uppercase;
+    }
+    .img6{
+        margin: 30px auto 0;
+        width: 50%;
+        max-width: 513px;
+
+        img{
+            width: 100%;
+        }
+    }
+}  //end sec6
+
+.sec7{
+    display: flex;
+    background: linear-gradient(to right, #deeaff 47%, #fed000 50%);
+    
+    .box7{
+        width: 50%;
+        // border: $border;
+    }
+    .box7_1{
+        img{
+            width: 100%;
+            height: 100%;
+            max-height: 672px;
+        }
+    }
+    .box7_2{
+        position: relative;
+        padding: 40px 0 0 40px;
+
+        .box7_2_1{
+            width: 40%;
+            height: 40%;
+            // border: $border;
+            position: absolute;
+            bottom: 25px;
+            right: 0;
+    
+            img{
+                width: 100%;
+            }
+        }
+        .box7_2_2{
+            background: url(img/fon3.png) no-repeat;
+            background-size: 100% 100%;
+            width: 60%;
+            height: 30%;
+            padding-top: 15px;
+            width: 335px;
+            height: 145px;
+            color: white;
+            font-size: 32px;
+            // border: $border;
+
+               span{
+                color: white;
+                font-size: 45px;
+            }
+        }
+        .p7{
+            width: 60%;
+            font-size: 28px;
+            text-align: left;
+            margin-top: 40px;
+        }
+    }
+    
+}  //end sec7
+
+@media screen and (max-width: 1024px){
+    .sec1{
+        height: 380px;
+        
+        .text{
+            top: 110px;
+            right: 75px;
+        }
+    }
+
+    .sec7 .box7_2 {
+        .p7{
+            font-size: 20px;
+        }
+
+        .box7_2_1 img {
+            width: 70%;
+            bottom: -20px;
+            left: 55px;
+            position: absolute;
+        }
+    }
+}  //end 1024px
+
+@media screen and (max-width: 768px){
+    .sec1 {
+        height: 280px;
+
+        .text{
+            width: 220px;
+            top: 85px;
+            right: 65px;
+            padding-top: 25px;
+
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+
+    .sec2{
+        padding: 25px;
+
+        .p2_1,
+        .p2_2,
+        .img2{
+            width: 90%;
+        }
+
+        .p2_1{
+            text-align: justify;
+            font-size: 21px;
+        }
+        h2{
+            margin-top: 20px;
+        }
+        .p2_2{
+            text-align: justify;
+        }
+    }
+
+    .sec3{
+        .p3{
+            margin-top: 10px;
+        }
+        .box3{
+            width: 90%;
+            margin: 10px auto;
+
+            .box3_1{
+                .p3_1{
+                    width: 100%;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .sec4{
+        margin-top: 0;
+
+        .p4_1 {
+            margin-top: 10px;
+        }
+        .p4_2{
+            margin: 15px auto;
+            width: 90%;
+            text-align: justify;
+        }
+    }
+
+    .sec5 {
+        margin-top: 20px;
+
+        .p5_1{
+            width: 90%;
+            margin: 10px auto;
+            text-align: justify;
+        }
+        .img5{
+            width: 90%;
+        }
+        .p5_2{
+            margin-top: 15px;
+        }
+        .box5{
+            width: 90%;
+            margin: 15px auto 5px;
+
+            p{
+                width: 100%;
+                font-size: 14px;
+            }
+            .box5_2{
+                width: 60%;
+            }
+        }
+        .p5_3{
+            font-size: 18px;
+            width: 90%;
+            margin: 10px auto 20px;
+        }
+    }
+
+    .sec6{
+        padding: 0 0 10px;
+
+        .img6{
+            margin: 20px auto 0;
+            width: 60%;
+        }
+    }
+
+    .sec7{
+        height: 300px;
+
+        .box7_2{
+            padding: 15px;
+
+            .box7_2_2{
+                width: 275px;
+                height: 105px;
+                font-size: 21px;
+
+                span{
+                    font-size: 34px;
+                }
+            }
+            .p7{
+                width: 100%;
+                text-align: justify;
+                margin-top: 10px;
+            }
+        }
+    }
+}  //end 768px
+
+@media screen and (max-width: 655px){
+    .sec2 h2,
+    .sec3 h2,
+    .sec4 h2,
+    .sec5 h2,
+    .sec6 h2{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    .sec1{
+        height: 145px;
+
+        .text{
+            position: unset;
+            background: none;
+            width: 90%;
+            margin: 0 auto;
+            p{
+                color: #fed000;
+                font-size: 30px;
+                font-weight: 800;
+            }
+        }
+    }
+    .sec2{
+        padding: 5px;
+
+        .p2_1,
+        .p2_2{
+            width: 99%;
+            margin: 10px auto;
+            font-size: 14px;
+        }
+        .img2{
+            width: 99%;
+            margin: 0 auto; 
+        }
+    }
+    .sec3{
+        .box3{
+            margin: 5px auto 0;
+
+            .box3_1{
+                .p3_1{
+                    font-size: 12px;
+                    margin: 5px auto;
+                }
+            }
+        }
+    }
+    .sec4{
+        .p4_2{
+            width: 97%;
+        }
+    }
+    .sec5{
+        .p5_1{
+            width: 97%;
+            font-size: 14px;
+        }
+        .p5_2{
+            font-size: 19px;
+        }
+        .box5{
+            display: block;
+
+            p{
+                font-size: 17px;
+            }
+
+            .box5_1{
+                // border: $border;
+                width: 99%;
+                display: flex;
+                
+                img{
+                    width: 15%;
+                }
+            }
+            .box5_2{
+                img{
+                    width: 160%;
+                    margin: 5px auto;
+                }
+            }
+        }
+        .p5_3{
+            font-size: 15px;
+            width: 99%;
+            margin: 7px auto 7px;
+        }
+    }
+    .sec6{
+        .img6{
+            margin: 10px auto 0;
+            width: 95%;
+        }
+    }
+    .sec7{
+        height: 190px;
+
+        .box7_2{
+            padding: 5px;
+
+            .box7_2_1{
+                right: 40px;
+            }
+
+            .box7_2_2{
+                background: none;
+                padding-top: 0;
+                width: 99%;
+                height: 65px;
+                // border: $border;
+
+                span{
+                    font-size: 21px;
+                }
+            }
+            .p7{
+                font-size: 12px;
+            }
+        }
+        
+    }
+}  //end 655px
+
+@media screen and (max-width: 344px){
+    .sec1{
+        height: 120px;
+        .text{
+            padding-top: 15px;
+        }
+    }
+    .sec3{
+        .box3{
+            display: block;
+
+            .box3_1{
+                width: 99%;
+                display: flex;
+                margin-top: 7px;
+                align-items: center;
+
+                .p3_1{
+                    font-size: 14px;
+                    width: 83%;
+                }
+
+                .circle{
+                    width: 50px;
+                    height: 50px;
+                    line-height: 50px;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    .sec7{
+        height: 165px;
+
+        .box7_2{
+            .box7_2_2{
+                font-size: 18px;
+                height: 55px;
+            }
+            .p7{
+                margin-top: 0;
+            }
+        }
+    }
+}
+

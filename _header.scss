@@ -1,0 +1,123 @@
+nav{
+    height: 108px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px 0 50px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    #X{
+        display: none;
+        color: white;
+        font-size: 30px;
+    }
+    #box2{
+        display: none;
+    }
+
+    .box1{
+        // border: $border;
+        width: 820px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        #lang{
+            background: #372243;
+            border-radius: 5px;
+            text-transform: uppercase;
+            width: 51px;
+
+            a{
+                color: #fed000;
+                background: #372243;
+            }
+            #ru,
+            #eng{
+                padding: 0;
+            }
+            #ru{
+                text-decoration: underline;
+            }
+        }
+        #lang:hover{
+            background: #372243;
+        }
+        a:hover{
+            background: #fed000;
+            border-radius: 5px;
+        }
+    }
+}   // end nav
+
+@media screen and (max-width: 768px){
+    header{
+        nav{
+            padding: 5px;
+        }
+    }
+}  //end 768px
+
+@media screen and (max-width: 655px){
+    header{
+        
+        nav{
+            height: 45px;
+            position: fixed;
+            z-index: 1;
+            background: #fed000;
+            .box1{
+                padding-top: 37px;
+                display: none;
+                width: 100vw;
+                // border: $border;
+                height: 100vh;
+                background: rgba(0,0,0,.9);
+                position: absolute;
+                top: 0;
+                left: 0;
+
+                a{
+                    font-size: 16px;
+                    display: block;
+                    color: white;
+                    width: 180px;
+                    margin: 0 auto;
+                }
+                #lang{
+                    background: none;
+                    width: 51px;
+                    margin: 0 auto;
+
+                    #ru,
+                    #eng{
+                        width: 51px;
+                        // margin: 0 auto;
+                        // border-radius: 5px;
+                    }
+                }
+            }
+            #btn{
+                cursor: pointer;
+            }
+            #box2{
+                display: block;
+                position: absolute;
+                right: 10px;
+                top: 10px;
+            }
+            #X{
+                position: absolute;
+                right: 10px;
+                top: 10px;
+            }
+            img{
+                width: 35px;
+            }
+        }
+    }
+    main{
+        padding-top: 45px;
+    }
+}  //end 655px
