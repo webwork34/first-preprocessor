@@ -36,6 +36,7 @@ nav{
             #ru,
             #eng{
                 padding: 0;
+                font-size: 18px;
             }
             #ru{
                 text-decoration: underline;
@@ -51,13 +52,27 @@ nav{
     }
 }   // end nav
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 779px){
     header{
         nav{
             padding: 5px;
+
+            a{
+                font-size: 16px;
+            }
         }
     }
-}  //end 768px
+}  //end 779px
+
+@media screen and (max-width: 719px){
+    header{
+        nav{
+            a{
+                font-size: 14px;
+            }
+        }
+    }
+}  //end 719px
 
 @media screen and (max-width: 655px){
     header{
