@@ -33,6 +33,10 @@ h2:after {
   margin: 0 auto;
 }
 
+header {
+  overflow-x: hidden;
+}
+
 nav {
   height: 108px;
   display: -webkit-box;
