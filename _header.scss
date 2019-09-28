@@ -9,12 +9,14 @@ nav{
 
     #btn{
         display: none;
+        user-select: none;
     }
 
     #X{
         display: none;
         color: white;
         font-size: 30px;
+        user-select: none;
     }
     #box2{
         display: none;
