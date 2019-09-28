@@ -29,11 +29,12 @@ btn.addEventListener('click', function(){
 window.onresize = function(){
     if(screen.width > 655){
         box1.removeAttribute('style');
-        btn.style.display = 'none';
+        btn.removeAttribute('style');
+        box2.removeAttribute('style');
+        X.removeAttribute('style');
     }
 
     if(screen.width <= 655){
         btn.style.display = 'block';
-        btn.removeAttribute('style');
     }
 }
