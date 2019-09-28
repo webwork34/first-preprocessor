@@ -29,17 +29,11 @@ btn.addEventListener('click', function(){
 window.onresize = function(){
     if(screen.width > 655){
         box1.removeAttribute('style');
+        btn.style.display = 'none';
+    }
+
+    if(screen.width <= 655){
+        btn.style.display = 'block';
+        btn.removeAttribute('style');
     }
 }
-
-// lang.addEventListener('click', function(){
-//     if(counter_lang){
-//         eng.style.display = 'block';
-//         counter_lang = false;
-//     }else{
-//         eng.style.display = 'none';
-//         counter_lang = true;
-//     }
-// });
-
-console.log(lang);

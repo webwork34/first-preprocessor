@@ -7,6 +7,10 @@ nav{
     max-width: 1440px;
     margin: 0 auto;
 
+    #btn{
+        display: none;
+    }
+
     #X{
         display: none;
         color: white;
@@ -108,13 +112,12 @@ nav{
                     #ru,
                     #eng{
                         width: 51px;
-                        // margin: 0 auto;
-                        // border-radius: 5px;
                     }
                 }
             }
             #btn{
                 cursor: pointer;
+                display: block;
             }
             #box2{
                 display: block;

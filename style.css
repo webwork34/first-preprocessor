@@ -47,6 +47,10 @@ nav {
   margin: 0 auto;
 }
 
+nav #btn {
+  display: none;
+}
+
 nav #X {
   display: none;
   color: white;
@@ -151,6 +155,7 @@ nav .box1 a:hover {
   }
   header nav #btn {
     cursor: pointer;
+    display: block;
   }
   header nav #box2 {
     display: block;
