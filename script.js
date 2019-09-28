@@ -20,6 +20,9 @@ btn.addEventListener('click', function(){
         box1.style.display = 'none';
         box2.style.display = 'block';
         X.style.display = 'none';
+        box1.removeAttribute('style');
+        box2.removeAttribute('style');
+        X.removeAttribute('style');
         counter = true;
     }
 });
