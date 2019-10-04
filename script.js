@@ -6,8 +6,7 @@ const btn   = document.querySelector('#btn'),
       box2  = document.querySelector('#box2'),
       X     = document.querySelector('#X');
 
-let counter      = true,
-    counter_lang = true;
+let counter = true;
 
 
 btn.addEventListener('click', function(){
@@ -33,9 +32,11 @@ window.onresize = function(){
         btn.removeAttribute('style');
         box2.removeAttribute('style');
         X.removeAttribute('style');
+        counter = false;
     }
 
     if(screen.width <= 655){
         btn.style.display = 'block';
+        counter = true;
     }
 }
